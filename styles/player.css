@@ -1,0 +1,12 @@
+.player{
+   
+   width: 200px;
+
+}
+.player-container{
+    
+    width: fit-content;
+    position: absolute;
+    bottom: 400px;
+    z-index: 100;
+}

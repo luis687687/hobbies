@@ -1,0 +1,21 @@
+.zombie{
+    z-index: 100;
+    width: 150px;
+    transform: rotateY(180deg);
+    right: 0;
+    bottom: 190px;
+}
+
+
+.move{
+
+    animation: move 20s linear infinite;
+    
+
+}
+
+@keyframes move {
+    to{
+        translate: -500% 0px;
+    }
+}
